@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Focus Timer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Focus Timer</h1>
+  <div class="timer-inputs">
+    <input type="number" id="hours" placeholder="HH" min="0">
+    <input type="number" id="minutes" placeholder="MM" min="0" max="59">
+    <input type="number" id="seconds" placeholder="SS" min="0" max="59">
+    <button class="add-timer" onclick="addTimer()">Add Timer</button>
+  </div>
+  <div class="timer-container" id="timerContainer"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
